@@ -15,7 +15,7 @@ export const EconomySection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8">
           {/* Savings Cards */}
-          <div className="bg-gradient-gold rounded-2xl p-4 sm:p-6 lg:p-8 text-primary-foreground">
+          <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 text-card-foreground border border-glass">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4">MIN 3000 ГРН</h3>
             <p className="text-sm sm:text-lg lg:text-xl mb-1 sm:mb-2">НА РЕТУШІ</p>
             <p className="text-xs sm:text-sm lg:text-lg opacity-90">25 фото × 120₴</p>

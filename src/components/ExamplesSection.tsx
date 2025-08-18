@@ -1,7 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
 import beforeAfterImage1 from "@/assets/before-after-1.webp";
-import beforeAfterImage2 from "@/assets/before-after-1.webp";
+import beforeAfterImage2 from "@/assets/before-after-2.webp";
+
+import Lottie from "lottie-react";
+import InstagramReactions from "@/lotties/Instagram-reactions.json";
+import InstagramLike from "@/lotties/Instagram-like.json";
 
 export const ExamplesSection = () => {
   return (
@@ -13,27 +17,53 @@ export const ExamplesSection = () => {
         <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 bg-gradient-gold bg-clip-text text-transparent">
           ЯК ШВИДКО МОЖНА ЗРОБИТИ РЕТУШ ФОТО
         </h3>
-        
+
         <p className="text-sm sm:text-base lg:text-lg text-card-foreground mb-6 sm:mb-8">
-          В курсі є не лише інформація по швидкій обробці фото але і багато матеріалу про те, 
-          як зробити хороший ісходник і що на нього впливає
+          В курсі є не лише інформація по швидкій обробці фото але і багато
+          матеріалу про те, як зробити хороший ісходник і що на нього впливає
         </p>
-        
+
         {/* Before/After Examples */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8">
-          <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
-            <img src={beforeAfterImage1} alt="Приклад до і після обробки фото" className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4" />
-            <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">ПРИКЛАД 1</h4>
-            <p className="text-xs sm:text-sm text-card-foreground">До і після швидкої обробки</p>
+          <div className="relative overflow-hidden bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
+            <img
+              src={beforeAfterImage1}
+              alt="Приклад до і після обробки фото"
+              className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4"
+            />
+            <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
+              <div className="w-3/5 mb-[13%]">
+                <Lottie animationData={InstagramReactions} loop autoplay />
+              </div>
+            </div>
+            <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">
+              ПРИКЛАД 1
+            </h4>
+            <p className="text-xs sm:text-sm text-card-foreground">
+              До і після швидкої обробки
+            </p>
           </div>
-          
-          <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
-            <img src={beforeAfterImage2} alt="Приклад до і після обробки фото" className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4" />
-            <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">ПРИКЛАД 2</h4>
-            <p className="text-xs sm:text-sm text-card-foreground">Професійний результат за 10 хвилин</p>
+
+          <div className="relative overflow-hidden bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
+            <img
+              src={beforeAfterImage2}
+              alt="Приклад до і після обробки фото"
+              className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4"
+            />
+            <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
+              <div className="w-1/5 mb-[17%] ml-[26%]">
+                <Lottie animationData={InstagramLike} loop autoplay />
+              </div>
+            </div>
+            <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">
+              ПРИКЛАД 2
+            </h4>
+            <p className="text-xs sm:text-sm text-card-foreground">
+              Професійний результат за 10 хвилин
+            </p>
           </div>
         </div>
-        
+
         <Button variant="cta" size="lg">
           КУПИТИ ЗА 240 ГРН
         </Button>

@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
-import { Star, Quote } from "lucide-react";
+// import { Star, Quote } from "lucide-react";
+
+import Lottie from "lottie-react";
+import Stars from "@/lotties/Stars.json";
 
 export const TestimonialsSection = () => {
   const testimonials = [
@@ -41,9 +44,10 @@ export const TestimonialsSection = () => {
               {/* <Quote className="w-6 h-6 sm:w-8 sm:h-8 text-primary mb-3 sm:mb-4" /> */}
               
               <div className="flex mb-3 sm:mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
+                {/* {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 text-primary fill-current" />
-                ))}
+                ))} */}
+                <Lottie animationData={Stars} loop autoplay className="w-24" />
               </div>
               
               <p className="text-card-foreground text-base mb-4 sm:mb-6 italic">
