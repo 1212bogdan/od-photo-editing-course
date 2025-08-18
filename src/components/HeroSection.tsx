@@ -4,8 +4,8 @@ import { CheckCircle } from "lucide-react";
 
 export const HeroSection = () => {
   const features = [
-    "Без складних програм",
     "Достатньо лише смартфона",
+    "Без складних програм",
   ];
 
   return (

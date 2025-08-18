@@ -56,7 +56,7 @@ export const TestimonialsSection = () => {
               key={index}
               className=""
             >
-              <img src={testimonial.image} alt={testimonial.text} className="w-full h-auto object-cover bg-glass backdrop-blur-glass rounded-xl overflow-hidden border border-glass" />
+              <img src={testimonial.image} alt={testimonial.text} className="w-full h-auto object-cover bg-white rounded-xl overflow-hidden py-2" />
               {/* <Quote className="w-6 h-6 sm:w-8 sm:h-8 text-primary mb-3 sm:mb-4" /> */}
               
               {/* <div className="flex mb-3 sm:mb-4">
