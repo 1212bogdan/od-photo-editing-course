@@ -1,6 +1,6 @@
 import { CourseSection } from "./CourseSection";
-import singleLightExample from "@/assets/single-light-example.jpg";
-import threeLightExample from "@/assets/three-light-example.jpg";
+import singleLightExample from "@/assets/single-light-example.webp";
+import threeLightExample from "@/assets/three-light-example.webp";
 
 export const ContentFactorsSection = () => {
   return (
@@ -37,7 +37,7 @@ export const ContentFactorsSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
             <div className="relative bg-glass backdrop-blur-glass rounded-xl p-4 border border-glass">
               <div className="relative overflow-hidden rounded-lg mb-3">
-                <img src={singleLightExample} alt="1 джерело світла" className="w-full h-32 sm:h-40 object-cover" />
+                <img src={singleLightExample} alt="1 джерело світла" className="w-full h-[31rem] object-cover" />
               </div>
               <h4 className="text-lg sm:text-xl font-semibold text-muted-foreground mb-2">1 джерело світла</h4>
               <p className="text-xs sm:text-sm text-card-foreground">Звичайний результат з тінями</p>
@@ -45,7 +45,7 @@ export const ContentFactorsSection = () => {
             
             <div className="relative bg-glass backdrop-blur-glass rounded-xl p-4 border border-primary/30">
               <div className="relative overflow-hidden rounded-lg mb-3">
-                <img src={threeLightExample} alt="3 джерела світла" className="w-full h-32 sm:h-40 object-cover" />
+                <img src={threeLightExample} alt="3 джерела світла" className="w-full h-[31rem] object-cover" />
               </div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">3 джерела світла</h4>
               <p className="text-xs sm:text-sm text-card-foreground">Професійне освітлення</p>

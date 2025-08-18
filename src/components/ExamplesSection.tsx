@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
-import beforeAfterImage1 from "@/assets/before-after-1.jpg";
-import beforeAfterImage2 from "@/assets/before-after-1.jpg";
+import beforeAfterImage1 from "@/assets/before-after-1.webp";
+import beforeAfterImage2 from "@/assets/before-after-1.webp";
 
 export const ExamplesSection = () => {
   return (
@@ -22,13 +22,13 @@ export const ExamplesSection = () => {
         {/* Before/After Examples */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8">
           <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
-            <img src={beforeAfterImage1} alt="Приклад до і після обробки фото" className="w-full h-32 sm:h-48 lg:h-64 object-cover rounded-lg mb-3 sm:mb-4" />
+            <img src={beforeAfterImage1} alt="Приклад до і після обробки фото" className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4" />
             <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">ПРИКЛАД 1</h4>
             <p className="text-xs sm:text-sm text-card-foreground">До і після швидкої обробки</p>
           </div>
           
           <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
-            <img src={beforeAfterImage2} alt="Приклад до і після обробки фото" className="w-full h-32 sm:h-48 lg:h-64 object-cover rounded-lg mb-3 sm:mb-4" />
+            <img src={beforeAfterImage2} alt="Приклад до і після обробки фото" className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4" />
             <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">ПРИКЛАД 2</h4>
             <p className="text-xs sm:text-sm text-card-foreground">Професійний результат за 10 хвилин</p>
           </div>
