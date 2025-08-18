@@ -37,7 +37,7 @@ export const FAQSection = () => {
         </h2>
         
         <div className="space-y-4">
-          {faqs.map((faq, index) => <div key={index} className="bg-card rounded-2xl border border-border overflow-hidden shadow-gold">
+          {faqs.map((faq, index) => <div key={index} className="bg-card rounded-2xl border border-border overflow-hidden">
               <button onClick={() => toggleItem(index)} className="w-full p-4 md:p-6 text-left flex items-center justify-between hover:bg-muted transition-colors">
                 <h3 className="text-sm md:text-lg font-semibold text-card-foreground pr-4">
                   {faq.question}

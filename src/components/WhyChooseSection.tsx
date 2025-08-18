@@ -35,7 +35,7 @@ export const WhyChooseSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
-            <Users className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-3 sm:mb-4" />
+            {/* <Users className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-3 sm:mb-4" /> */}
             <p className="text-card-foreground text-sm sm:text-base lg:text-lg">
               Так, є багато курсів, де тебе будуть довго вчити створювати кіношну картинку і 
               журнальну ретуш, але за цим стоїть купа часу, зусиль і коштів.
@@ -43,7 +43,7 @@ export const WhyChooseSection = () => {
           </div>
           
           <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass">
-            <Lightbulb className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-3 sm:mb-4" />
+            {/* <Lightbulb className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-3 sm:mb-4" /> */}
             <p className="text-card-foreground text-sm sm:text-base lg:text-lg">
               Для чого все це робити, якщо тоді не лишиться часу на клієнтів. 
               <strong className="text-primary"> Я за прості рішення!</strong>

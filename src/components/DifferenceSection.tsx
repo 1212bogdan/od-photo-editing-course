@@ -11,9 +11,9 @@ export const DifferenceSection = () => {
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {differences.map((difference, index) => <div key={index} className="flex items-start gap-4 bg-card rounded-2xl p-6 shadow-gold px-[16px] py-[16px]">
-              <CheckCircle className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-              <p className="text-card-foreground font-medium text-sm">
+          {differences.map((difference, index) => <div key={index} className="flex items-center gap-4 bg-card rounded-2xl p-3 md:p-4">
+              <CheckCircle className="w-5 h-5 md:w-8 md:h-8 text-primary flex-shrink-0" />
+              <p className="text-card-foreground font-medium text-sm md:text-base">
                 {difference}
               </p>
             </div>)}

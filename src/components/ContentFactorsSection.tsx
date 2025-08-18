@@ -1,6 +1,10 @@
 import { CourseSection } from "./CourseSection";
 import singleLightExample from "@/assets/single-light-example.webp";
 import threeLightExample from "@/assets/three-light-example.webp";
+import Lottie from "lottie-react";
+// import instagramLike from "@/lotties/Instagram-like.json";
+import Cross from "@/lotties/Cross.json";
+import Check from "@/lotties/Check.json";
 
 export const ContentFactorsSection = () => {
   return (
@@ -35,17 +39,29 @@ export const ContentFactorsSection = () => {
           <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground mb-6 text-center">НАПРИКЛАД:</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
-            <div className="relative bg-glass backdrop-blur-glass rounded-xl p-4 border border-glass">
+            <div className="relative bg-glass backdrop-blur-glass rounded-lg p-4 border border-glass">
               <div className="relative overflow-hidden rounded-lg mb-3">
                 <img src={singleLightExample} alt="1 джерело світла" className="w-full h-[31rem] object-cover" />
+                {/* Lottie overlay (subtle) */}
+                <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
+                  <div className="w-2/5 md:w-1/3 lg:w-1/4 opacity-90">
+                    <Lottie animationData={Cross} loop autoplay />
+                  </div>
+                </div>
               </div>
               <h4 className="text-lg sm:text-xl font-semibold text-muted-foreground mb-2">1 джерело світла</h4>
               <p className="text-xs sm:text-sm text-card-foreground">Звичайний результат з тінями</p>
             </div>
             
-            <div className="relative bg-glass backdrop-blur-glass rounded-xl p-4 border border-primary/30">
+            <div className="relative bg-glass backdrop-blur-glass rounded-lg p-4 border border-primary/30">
               <div className="relative overflow-hidden rounded-lg mb-3">
                 <img src={threeLightExample} alt="3 джерела світла" className="w-full h-[31rem] object-cover" />
+                {/* Lottie overlay — larger and brighter for example */}
+                <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
+                  <div className="w-2/5 md:w-1/3 lg:w-1/4 opacity-90">
+                    <Lottie animationData={Check} loop autoplay />
+                  </div>
+                </div>
               </div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">3 джерела світла</h4>
               <p className="text-xs sm:text-sm text-card-foreground">Професійне освітлення</p>
