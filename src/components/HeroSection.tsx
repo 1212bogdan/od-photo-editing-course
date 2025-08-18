@@ -4,12 +4,12 @@ import { CheckCircle } from "lucide-react";
 
 export const HeroSection = () => {
   const features = [
-    "Без Photoshop та інших складних програм",
+    "Без складних програм",
     "Достатньо лише смартфона",
   ];
 
   return (
-    <section className="relative h-screen bg-background overflow-hidden">
+    <section className="relative h-svh bg-background overflow-hidden">
       {/* Author Image positioned at bottom right */}
       <div
         className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-3/5 sm:h-4/5 md:h-full bg-cover bg-left md:bg-center bg-no-repeat"
