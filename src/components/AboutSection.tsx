@@ -1,19 +1,19 @@
 import { CourseSection } from "./CourseSection";
-import aboutBg from "@/assets/about-bg.jpg";
+// import aboutBg from "@/assets/about-bg.jpg";
 
 export const AboutSection = () => {
   return (
     <CourseSection>
       <div className="relative">
         {/* Background image */}
-        <div 
+        {/* <div 
           className="absolute inset-0 opacity-20 rounded-3xl bg-cover bg-center"
           style={{
             backgroundImage: `url(${aboutBg})`,
             maskImage: 'linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%)',
             WebkitMaskImage: 'linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 100%)'
           }}
-        />
+        /> */}
         
         <div className="relative z-10">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-foreground text-center">
