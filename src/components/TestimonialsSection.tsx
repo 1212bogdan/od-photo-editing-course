@@ -1,18 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
 
-import testimonials_1 from "@/assets/testimonials/t-1.png";
-import testimonials_2 from "@/assets/testimonials/t-2.png";
-import testimonials_3 from "@/assets/testimonials/t-3.png";
-import testimonials_4 from "@/assets/testimonials/t-4.png";
-import testimonials_5 from "@/assets/testimonials/t-5.png";
-import testimonials_6 from "@/assets/testimonials/t-6.png";
+import testimonials_1 from "@/assets/testimonials/t-1.webp";
+import testimonials_2 from "@/assets/testimonials/t-2.webp";
+import testimonials_3 from "@/assets/testimonials/t-3.webp";
+import testimonials_4 from "@/assets/testimonials/t-4.webp";
+import testimonials_5 from "@/assets/testimonials/t-5.webp";
+import testimonials_6 from "@/assets/testimonials/t-6.webp";
 
 
 // import { Star, Quote } from "lucide-react";
 
-// import Lottie from "lottie-react";
-// import Stars from "@/lotties/Stars.json";
+import Lottie from "lottie-react";
+import Stars from "@/lotties/Stars.json";
 
 export const TestimonialsSection = () => {
   const testimonials = [
@@ -46,9 +46,13 @@ export const TestimonialsSection = () => {
     <CourseSection dark>
       <div>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-center text-foreground">
-          А ОСЬ ЩО КАЖУТЬ 
+          А ОСЬ ЩО ГОВОРЯТЬ ПРО&nbsp;КУРС 
           <span className="bg-gradient-gold bg-clip-text text-transparent"> МОЇ СТУДЕНТИ</span>
         </h2>
+
+        <div className="flex justify-center mb-6">
+          <Lottie animationData={Stars} loop autoplay className="w-36" />
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
           {testimonials.map((testimonial, index) => (

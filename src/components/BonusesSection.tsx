@@ -3,11 +3,13 @@ import { CourseSection } from "./CourseSection";
 // import { Gift, Users, FileText, Camera, Calendar } from "lucide-react";
 
 import Lottie from "lottie-react";
+
 import Live from "@/lotties/Live.json";
-import Content from "@/lotties/Content.json";
+import Resources from "@/lotties/Resources.json";
 import OpenAI from "@/lotties/OpenAI.json";
 import Instagram from "@/lotties/Instagram.json";
-import Calendar from "@/lotties/Calendar.json";
+import Content from "@/lotties/Content.json";
+import Certificate from "@/lotties/Certificate.json";
 
 export const BonusesSection = () => {
   const bonuses = [
@@ -18,7 +20,7 @@ export const BonusesSection = () => {
         "Прямий ефір з питаннями та відповідями що у вас назбирались",
     },
     {
-      icon: Content,
+      icon: Resources,
       title: "Додаткові ресурси та чек-листи",
       description:
         "Додаткові ресурси та матеріали, які доповнять ваше навчання",
@@ -35,12 +37,12 @@ export const BonusesSection = () => {
       description: "Приклади вдалих поз для фото у соцмережах",
     },
     {
-      icon: Calendar,
+      icon: Content,
       title: "Контент план",
       description: "Детальний контент план на один місяць",
     },
     {
-      icon: Calendar,
+      icon: Certificate,
       title: "Сертифікат",
       description: "Сертифікат про проходження курсу",
     },
