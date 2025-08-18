@@ -41,7 +41,7 @@ export const HeroSection = () => {
                 {" "}
                 ОБРОБЛЯТИ КОНТЕНТ{" "}
               </span>
-              БЬЮТІ-МАЙСТРУ
+              БЬЮТІ&#8209;МАЙСТРУ
             </h1>
 
             {/* Feature blocks */}
@@ -110,7 +110,7 @@ export const HeroSection = () => {
                 </p>
                 <p className="text-xs text-card-foreground">
                   Прямі ефіри, додаткові ресурси, <br />
-                  шаблони, чек-листи, референси
+                  шаблони, чек&#8209;листи, референси
                 </p>
               </div>
             </div>

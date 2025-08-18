@@ -1,29 +1,44 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
+
+import testimonials_1 from "@/assets/testimonials/t-1.png";
+import testimonials_2 from "@/assets/testimonials/t-2.png";
+import testimonials_3 from "@/assets/testimonials/t-3.png";
+import testimonials_4 from "@/assets/testimonials/t-4.png";
+import testimonials_5 from "@/assets/testimonials/t-5.png";
+import testimonials_6 from "@/assets/testimonials/t-6.png";
+
+
 // import { Star, Quote } from "lucide-react";
 
-import Lottie from "lottie-react";
-import Stars from "@/lotties/Stars.json";
+// import Lottie from "lottie-react";
+// import Stars from "@/lotties/Stars.json";
 
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Марія К.",
-      profession: "Майстер перманентного макіяжу",
+      image: testimonials_1,
       text: "Дякую за курс! Тепер можу робити красиві фото своїх робіт за 5 хвилин. Клієнти в захваті!",
-      rating: 5
     },
     {
-      name: "Олена С.",
-      profession: "Бровіст",
+      image: testimonials_2,
       text: "Нарешті знайшла курс, який реально працює. Економлю купу грошей на ретуші та контенті.",
-      rating: 5
     },
     {
-      name: "Анна В.",
-      profession: "Lash-майстер",
+      image: testimonials_3,
       text: "Курс змінив моє ведення Instagram. Тепер мої фото виглядають як у топових майстрів!",
-      rating: 5
+    },
+    {
+      image: testimonials_4,
+      text: "Курс змінив моє ведення Instagram. Тепер мої фото виглядають як у топових майстрів!",
+    },
+    {
+      image: testimonials_5,
+      text: "Курс змінив моє ведення Instagram. Тепер мої фото виглядають як у топових майстрів!",
+    },
+    {
+      image: testimonials_6,
+      text: "Курс змінив моє ведення Instagram. Тепер мої фото виглядають як у топових майстрів!",
     }
   ];
 
@@ -39,25 +54,26 @@ export const TestimonialsSection = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 border border-glass hover:border-primary/40 transition-all duration-300"
+              className=""
             >
+              <img src={testimonial.image} alt={testimonial.text} className="w-full h-auto object-cover bg-glass backdrop-blur-glass rounded-xl overflow-hidden border border-glass" />
               {/* <Quote className="w-6 h-6 sm:w-8 sm:h-8 text-primary mb-3 sm:mb-4" /> */}
               
-              <div className="flex mb-3 sm:mb-4">
-                {/* {[...Array(testimonial.rating)].map((_, i) => (
+              {/* <div className="flex mb-3 sm:mb-4">
+                {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 text-primary fill-current" />
-                ))} */}
+                ))}
                 <Lottie animationData={Stars} loop autoplay className="w-24" />
-              </div>
+              </div> */}
               
-              <p className="text-card-foreground text-base mb-4 sm:mb-6 italic">
+              {/* <p className="text-card-foreground text-base mb-4 sm:mb-6 italic">
                 "{testimonial.text}"
-              </p>
+              </p> */}
               
-              <div className="border-t border-glass pt-3 sm:pt-4">
+              {/* <div className="border-t border-glass pt-3 sm:pt-4">
                 <h4 className="text-primary font-bold text-sm sm:text-base">{testimonial.name}</h4>
                 <p className="text-card-foreground text-xs sm:text-sm">{testimonial.profession}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
