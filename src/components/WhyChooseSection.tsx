@@ -1,9 +1,9 @@
 import { CourseSection } from "./CourseSection";
 // import { Clock, Target, Users, Lightbulb } from "lucide-react";
 
-import Lottie from "lottie-react";
-import Timer from "@/lotties/Timer.json";
-import Checklist from "@/lotties/Checklist.json";
+// import Lottie from "lottie-react";
+// import Timer from "@/lotties/Timer.json";
+// import Checklist from "@/lotties/Checklist.json";
 
 export const WhyChooseSection = () => {
   return (
@@ -21,8 +21,9 @@ export const WhyChooseSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-center">
             <div>
               {/* <Clock className="w-12 h-12 sm:w-16 sm:h-16 text-primary mb-4 sm:mb-6" /> */}
-              <div className="w-1/5 md:w-1/4 mb-2">
-                <Lottie animationData={Timer} loop autoplay />
+              <div className="w-1/5 md:w-1/4 mb-2 text-4xl">
+                😎
+                {/* <Lottie animationData={Timer} loop autoplay /> */}
               </div>
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-2 sm:mb-4">
                 Ефективність і швидкість
@@ -35,8 +36,9 @@ export const WhyChooseSection = () => {
 
             <div>
               {/* <Target className="w-12 h-12 sm:w-16 sm:h-16 text-primary mb-4 sm:mb-6" /> */}
-              <div className="w-1/5 md:w-1/4 mb-2">
-                <Lottie animationData={Checklist} loop autoplay />
+              <div className="w-1/5 md:w-1/4 mb-2 text-4xl">
+              👍
+                {/* <Lottie animationData={Checklist} loop autoplay /> */}
               </div>
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-2 sm:mb-4">
                 Практичний підхід

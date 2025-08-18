@@ -18,7 +18,7 @@ export const AboutSection = () => {
         <div className="relative z-10">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-foreground text-center">
             ХТО Я І ЩО ЦЕ ЗА 
-            <span className="bg-gradient-gold bg-clip-text text-transparent"> КУРС?</span>
+            <span className="bg-gradient-gold bg-clip-text text-transparent"> КУРС</span>?
           </h2>
           
           <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 border border-glass">
@@ -35,7 +35,7 @@ export const AboutSection = () => {
             
             <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-card-foreground">
               Тому для себе я напрацювала варіант ведення сторінки, зйомки контенту та 
-              найголовніше <strong className="text-primary">швидкій обробці</strong>, який 
+              найголовніше <strong className="text-primary">швидкої обробки</strong>, який 
               потребує мінімум зусиль і навичок.
             </p>
           </div>

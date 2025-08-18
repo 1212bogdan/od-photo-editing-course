@@ -64,7 +64,7 @@ export const TestimonialsSection = () => {
         
         <div className="text-center">
           <Button variant="cta" size="lg">
-            ПРИЄДНАТИСЬ
+            ПРИДБАТИ КУРС ЗА 240 ГРН
           </Button>
         </div>
       </div>

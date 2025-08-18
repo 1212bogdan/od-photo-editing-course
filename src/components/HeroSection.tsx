@@ -9,7 +9,7 @@ export const HeroSection = () => {
   ];
 
   return (
-    <section className="relative h-svh bg-background overflow-hidden">
+    <section className="relative max-h-svh h-svh bg-background overflow-hidden">
       {/* Author Image positioned at bottom right */}
       <div
         className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-3/5 sm:h-4/5 md:h-full bg-cover bg-left md:bg-center bg-no-repeat"
@@ -31,7 +31,7 @@ export const HeroSection = () => {
             <div className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 mb-4 sm:mb-6 border border-primary/20">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <p className="text-xs sm:text-sm text-foreground font-medium">
-                Курс від бьюті-майстра з досвідом
+                Курс від успішного майстра з досвідом 8+ років
               </p>
             </div>
 
@@ -41,7 +41,7 @@ export const HeroSection = () => {
                 {" "}
                 ОБРОБЛЯТИ КОНТЕНТ{" "}
               </span>
-              МАЙСТРУ
+              БЬЮТІ-МАЙСТРУ
             </h1>
 
             {/* Feature blocks */}
@@ -78,40 +78,35 @@ export const HeroSection = () => {
             {/* Price section */}
             <div className="mb-6">
               <div className="flex flex-col place-items-start mb-3">
-                <span className="flex items-baseline gap-3">
-                  <span className="text-lg sm:text-xl text-muted-foreground line-through">
-                    480 грн
+                <span className="flex items-center gap-2">
+                  <span
+                    className="relative text-xl sm:text-2xl text-muted-foreground after:content-[''] after:absolute after:left-0 after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-[2px] after:bg-[#D4AF37] after:rounded"
+                  >
+                    960 ГРН
                   </span>
-                  <div className="bg-card text-card-foreground px-2 py-1 rounded-full font-bold text-xs sm:text-sm">
-                    -50%
+                  <div className="bg-card text-card-foreground px-2 py-1 rounded-full font-bold text-xs">
+                    -75%
                   </div>
                 </span>
                 <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
-                  240 грн
+                  240 ГРН
                 </span>
               </div>
 
               {/* CTA Button positioned to overlap photo area */}
               <div className="flex justify-start">
-                {/* <Button
-                  variant="cta"
-                  size="lg"
-                  className="text-sm sm:text-lg md:text-xl px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 relative z-20"
-                >
-                  Приєднатись
-                </Button> */}
                 <Button variant="cta" size="lg">
-                  ПРИДБАТИ
+                  ПРИДБАТИ <span className="hidden md:inline">ЗАРАЗ</span>
                 </Button>
               </div>
             </div>
 
             {/* Bonus section */}
-            <div className="flex items-start gap-2 bg-card/40 backdrop-blur-sm rounded-lg p-3 border border-primary/10 w-fit">
+            <div className="flex items-start gap-2 bg-card/40 backdrop-blur-sm rounded-lg p-3 border border-primary/30 w-fit">
               {/* <div className="text-primary text-sm sm:text-base">🎁</div> */}
               <div>
                 <p className="text-sm font-semibold text-primary mb-1">
-                  🎁 БОНУС після реєстрації:
+                  🎁 БОНУСИ після покупки:
                 </p>
                 <p className="text-xs text-card-foreground">
                   Прямі ефіри, додаткові ресурси, <br />
@@ -122,10 +117,10 @@ export const HeroSection = () => {
           </div>
 
           {/* Author info - positioned to avoid photo */}
-          <div className="flex flex-col self-start md:self-center mt-4 border-gold-dark border-l-2 pl-2">
+          {/* <div className="flex flex-col self-start md:self-center mt-4 border-gold-dark border-l-2 pl-2">
             <p className="text-primary text-sm font-bold">ОКСАНА ДАНИЛЮК</p>
             <p className="text-primary-light text-xs">майстер перманенту</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

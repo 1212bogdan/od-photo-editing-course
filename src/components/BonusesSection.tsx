@@ -13,13 +13,13 @@ export const BonusesSection = () => {
   const bonuses = [
     {
       icon: Live,
-      title: "Щомісячні прямі ефіри",
+      title: "Щомісячні прямі ефіри з автором",
       description:
         "Прямий ефір з питаннями та відповідями що у вас назбирались",
     },
     {
       icon: Content,
-      title: "Додаткові ресурси",
+      title: "Додаткові ресурси та чек-листи",
       description:
         "Додаткові ресурси та матеріали, які доповнять ваше навчання",
     },
@@ -27,17 +27,22 @@ export const BonusesSection = () => {
       icon: OpenAI,
       title: "Шаблони для ChatGPT",
       description:
-        "Шаблони для завдань для чату-GPT, щоб спростити ведення Instagram",
+        "Ефективні шаблони завдань для чату-GPT",
     },
     {
       icon: Instagram,
-      title: "Референси поз",
-      description: "Референси вдалих поз для фото",
+      title: "Референси поз для Instagram",
+      description: "Приклади вдалих поз для фото у соцмережах",
     },
     {
       icon: Calendar,
       title: "Контент план",
-      description: "Контент план на один місяць",
+      description: "Детальний контент план на один місяць",
+    },
+    {
+      icon: Calendar,
+      title: "Сертифікат",
+      description: "Сертифікат про проходження курсу",
     },
   ];
 
@@ -46,7 +51,7 @@ export const BonusesSection = () => {
       <div>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-center text-foreground">
           <span className="bg-gradient-gold bg-clip-text text-transparent">
-            БОНУСИ:
+            БОНУСИ
           </span>
         </h2>
 
@@ -74,7 +79,7 @@ export const BonusesSection = () => {
 
         <div className="text-center">
           <Button variant="cta" size="lg">
-            ПРИДБАТИ
+            ПРИДБАТИ КУРС ЗА 240 ГРН
           </Button>
         </div>
       </div>

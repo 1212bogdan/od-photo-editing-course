@@ -23,7 +23,7 @@ export const ProgramSection = () => {
       <img
         src={programImage}
         alt="Приклад до і після обробки фото"
-        className="flex self-end w-full md:w-2/5 object-cover mb-3 sm:mb-4"
+        className="flex self-end w-full md:w-3/5 object-cover mb-3 sm:mb-4"
       />
 
       <div className="relative z-10 flex flex-col justify-between px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
@@ -35,17 +35,17 @@ export const ProgramSection = () => {
           </span>
         </h2>
 
-        <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 border border-glass mb-8">
-          <div className="grid grid-cols-1 gap-4">
+        <div className="bg-glass backdrop-blur-glass rounded-2xl p-2 sm:p-6 lg:p-8 border border-glass mb-8">
+          <div className="grid grid-cols-1 gap-2 md:gap-4">
             {programItems.map((item, index) => (
               <div
                 key={index}
                 className="flex gap-4 p-4 px-[4px] py-[4px] items-center"
               >
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center text-primary-foreground font-bold">
+                <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 bg-gradient-gold rounded-full flex items-center justify-center text-primary-foreground font-bold">
                   {index + 1}
                 </div>
-                <p className="text-sm sm:text-base text-card-foreground">
+                <p className="text-sm sm:text-base md:text-lg text-card-foreground">
                   {item}
                 </p>
               </div>
@@ -55,7 +55,7 @@ export const ProgramSection = () => {
 
         <div className="text-center">
           <Button variant="cta" size="lg">
-            ПРИДБАТИ КУРС
+            ПРИДБАТИ КУРС ЗА 240 ГРН
           </Button>
         </div>
       </div>

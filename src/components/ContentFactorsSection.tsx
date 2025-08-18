@@ -19,34 +19,40 @@ export const ContentFactorsSection = () => {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
-          <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 text-center border border-glass hover:border-primary/30 transition-all duration-300">
-            <div className="text-2xl sm:text-3xl mb-3">📱</div>
-            <h3 className="text-sm sm:text-lg font-bold text-primary mb-2">
-              Телефон та його налаштування
-            </h3>
-            <p className="text-xs sm:text-sm text-card-foreground">
-              Правильні налаштування камери
-            </p>
+          <div className="flex sm:flex-col bg-glass backdrop-blur-glass rounded-xl p-3 sm:p-6 sm:text-center border border-glass hover:border-primary/30 transition-all duration-300">
+            <div className="text-4xl sm:text-3xl sm:mb-3">📱</div>
+            <div className="ml-3 sm:ml-0">
+              <h3 className="text-sm md:text-lg font-bold text-primary mb-1">
+                Телефон та його налаштування
+              </h3>
+              <p className="text-xs sm:text-sm text-card-foreground">
+                Правильні налаштування камери
+              </p>
+            </div>
           </div>
 
-          <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 text-center border border-glass hover:border-primary/30 transition-all duration-300">
-            <div className="text-2xl sm:text-3xl mb-3">💡</div>
-            <h3 className="text-sm sm:text-lg font-bold text-primary mb-2">
-              Світло та його комбінації
-            </h3>
-            <p className="text-xs sm:text-sm text-card-foreground">
-              Схеми освітлення
-            </p>
+          <div className="flex sm:flex-col bg-glass backdrop-blur-glass rounded-xl p-3 sm:p-6 sm:text-center border border-glass hover:border-primary/30 transition-all duration-300">
+            <div className="text-4xl sm:text-3xl sm:mb-3">💡</div>
+            <div className="ml-3 sm:ml-0">
+              <h3 className="text-sm md:text-lg font-bold text-primary mb-1">
+                Світло та його комбінації
+              </h3>
+              <p className="text-xs sm:text-sm text-card-foreground">
+                Схеми освітлення
+              </p>
+            </div>
           </div>
 
-          <div className="bg-glass backdrop-blur-glass rounded-xl p-4 sm:p-6 text-center border border-glass hover:border-primary/30 transition-all duration-300">
-            <div className="text-2xl sm:text-3xl mb-3">🪄</div>
-            <h3 className="text-sm sm:text-lg font-bold text-primary mb-2">
-              Додаткове обладнання
-            </h3>
-            <p className="text-xs sm:text-sm text-card-foreground">
-              Світловідбивач, фон, макролінза
-            </p>
+          <div className="flex sm:flex-col bg-glass backdrop-blur-glass rounded-xl p-3 sm:p-6 sm:text-center border border-glass hover:border-primary/30 transition-all duration-300">
+            <div className="text-4xl sm:text-3xl sm:mb-3">📷</div>
+            <div className="ml-3 sm:ml-0">
+              <h3 className="text-sm md:text-lg font-bold text-primary mb-1">
+                Додаткове обладнання
+              </h3>
+              <p className="text-xs sm:text-sm text-card-foreground">
+                Світловідбивач, фон, макролінза
+              </p>
+            </div>
           </div>
         </div>
 
@@ -55,13 +61,13 @@ export const ContentFactorsSection = () => {
             НАПРИКЛАД:
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-6">
             <div className="relative bg-glass backdrop-blur-glass rounded-lg p-4 border border-glass">
               <div className="relative overflow-hidden rounded-lg mb-3">
                 <img
                   src={singleLightExample}
                   alt="1 джерело світла"
-                  className="w-full h-[24rem] md:h-[31rem] object-cover"
+                  className="w-full aspect-9/16 object-cover"
                 />
                 <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
                   <div className="w-2/5 md:w-1/3 lg:w-1/4">
@@ -82,7 +88,7 @@ export const ContentFactorsSection = () => {
                 <img
                   src={threeLightExample}
                   alt="3 джерела світла"
-                  className="w-full h-[24rem] md:h-[31rem] object-cover"
+                  className="w-full aspect-9/16 object-cover"
                 />
                 <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
                   <div className="w-2/5 md:w-1/3 lg:w-1/4">
@@ -104,7 +110,8 @@ export const ContentFactorsSection = () => {
               І ПРО ЦЕ ВСЕ МИ ПОГОВОРИМО НА КУРСІ
             </p>
             <p className="text-xs sm:text-sm text-muted-foreground">
-              ЯКОЮ Б КЛАСНОЮ НЕ БУЛА РЕТУШ, АЛЕ ТРОШКИ УВАГИ ПОТРЕБУЄ ПОЧАТКОВЕ ФОТО
+              ЯКОЮ Б КЛАСНОЮ НЕ БУЛА РЕТУШ, АЛЕ ТРІШКИ УВАГИ ПОТРЕБУЄ ПОЧАТКОВЕ
+              ФОТО
             </p>
           </div>
         </div>
