@@ -29,7 +29,7 @@ export const ExamplesSection = () => {
             <img
               src={beforeAfterImage1}
               alt="Приклад до і після обробки фото"
-              className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4"
+              className="w-full aspect-square object-cover rounded-sm mb-3 sm:mb-4"
             />
             <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
               <div className="w-3/5 mb-[13%]">
@@ -48,7 +48,7 @@ export const ExamplesSection = () => {
             <img
               src={beforeAfterImage2}
               alt="Приклад до і після обробки фото"
-              className="w-full h-fit object-cover rounded-sm mb-3 sm:mb-4"
+              className="w-full aspect-square object-cover rounded-sm mb-3 sm:mb-4"
             />
             <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
               <div className="w-1/5 mb-[17%] ml-[26%]">
@@ -65,7 +65,7 @@ export const ExamplesSection = () => {
         </div>
 
         <Button variant="cta" size="lg">
-          КУПИТИ ЗА 240 ГРН
+          ПРИДБАТИ ЗА 240 ГРН
         </Button>
       </div>
     </CourseSection>

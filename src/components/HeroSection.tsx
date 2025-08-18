@@ -93,12 +93,15 @@ export const HeroSection = () => {
 
               {/* CTA Button positioned to overlap photo area */}
               <div className="flex justify-start">
-                <Button
+                {/* <Button
                   variant="cta"
                   size="lg"
                   className="text-sm sm:text-lg md:text-xl px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 relative z-20"
                 >
                   Приєднатись
+                </Button> */}
+                <Button variant="cta" size="lg">
+                  ПРИДБАТИ
                 </Button>
               </div>
             </div>
@@ -111,7 +114,8 @@ export const HeroSection = () => {
                   🎁 БОНУС після реєстрації:
                 </p>
                 <p className="text-xs text-card-foreground">
-                  Прямі ефіри, додаткові ресурси, <br/>шаблони, чек-листи, референси
+                  Прямі ефіри, додаткові ресурси, <br />
+                  шаблони, чек-листи, референси
                 </p>
               </div>
             </div>
