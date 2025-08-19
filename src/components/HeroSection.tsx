@@ -82,15 +82,15 @@ export const HeroSection = () => {
               <div className="flex flex-col place-items-start mb-3">
                 <span className="flex items-center gap-2">
                   <span
-                    className="relative text-xl sm:text-2xl text-muted-foreground after:content-[''] after:absolute after:left-0 after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-[2px] after:bg-[#D4AF37] after:rounded"
+                    className="relative text-xl sm:text-2xl text-muted-foreground after:content-[''] after:absolute after:left-0 after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-[2px] after:bg-primary-dark after:rounded"
                   >
                     960 ГРН
                   </span>
-                  <div className="bg-card text-card-foreground px-2 py-1 rounded-full font-bold text-xs">
+                  <div className="bg-card text-primary-gold px-2 py-1 rounded-full font-bold text-xs">
                     -75%
                   </div>
                 </span>
-                <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
+                <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-dark">
                   240 ГРН
                 </span>
               </div>
@@ -107,7 +107,7 @@ export const HeroSection = () => {
             <div className="flex items-start gap-2 bg-card/40 backdrop-blur-sm rounded-lg p-3 border border-primary/30 w-fit">
               {/* <div className="text-primary text-sm sm:text-base">🎁</div> */}
               <div>
-                <p className="text-sm font-semibold text-primary mb-1">
+                <p className="text-sm font-semibold text-primary-dark mb-1">
                   🎁 БОНУСИ після покупки:
                 </p>
                 <p className="text-xs text-card-foreground">
