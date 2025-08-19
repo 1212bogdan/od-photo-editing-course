@@ -38,7 +38,7 @@ export const ContentFactorsSection = () => {
                 Світло та його комбінації
               </h3>
               <p className="text-xs sm:text-sm text-card-foreground">
-                Схеми освітлення
+                Схеми освітлення, кольори, інтенсивність
               </p>
             </div>
           </div>
