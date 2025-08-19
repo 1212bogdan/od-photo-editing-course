@@ -27,7 +27,7 @@ export const BonusesSection = () => {
     },
     {
       icon: OpenAI,
-      title: "Шаблони для ChatGPT",
+      title: "Шаблони запитів до ChatGPT",
       description:
         "Ефективні шаблони завдань для чату-GPT",
     },
