@@ -14,7 +14,7 @@ import { FAQSection } from "@/components/FAQSection";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <HeroSection />
+      {/* <HeroSection /> */}
       <AboutSection />
       <ExamplesSection />
       <ContentFactorsSection />
