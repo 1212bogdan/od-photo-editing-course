@@ -5,8 +5,8 @@ import { Send, Instagram, Facebook, Mail } from "lucide-react";
 export const FooterSection = () => {
   return (
     <CourseSection dark className="!pb-0 ">
-        {/* Background image */}
-        {/* <div 
+      {/* Background image */}
+      {/* <div 
           className="absolute inset-0 opacity-20 rounded-3xl bg-cover bg-center"
           style={{
             backgroundImage: `url(${footer})`,
@@ -61,6 +61,9 @@ export const FooterSection = () => {
               <h3 className="text-base sm:text-lg font-bold text-primary mb-2">
                 ФОП Данилюк Оксана Анатоліївна
               </h3>
+              <p className="text-sm sm:text-base text-card-foreground">
+                ІПН/РНОКПП: 3328804367
+              </p>
             </div>
 
             {/* Links */}
@@ -92,7 +95,7 @@ export const FooterSection = () => {
             {/* Bottom spacing */}
             <div className="pt-2">
               <p className="text-xs text-muted-foreground/80">
-                © 2025 OD.permanent
+                © 2025
               </p>
             </div>
           </div>

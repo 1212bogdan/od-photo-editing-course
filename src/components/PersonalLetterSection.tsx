@@ -8,7 +8,7 @@ export const PersonalLetterSection = () => {
   return (
     <CourseSection>
       <div className="flex flex-col justify-center items-center">
-        <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8 text-foreground uppercase">
+        <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8 text-foreground">
           Особисте послання від Оксани
         </h3>
 

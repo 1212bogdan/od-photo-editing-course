@@ -23,11 +23,11 @@ export const ProgramSection = () => {
     <CourseSection>
       <img
         src={programImage}
-        alt="Приклад до і після обробки фото"
+        alt="Автор курсу - Оксана Данилюк"
         className="flex self-end w-full md:w-3/5 object-cover mb-3 sm:mb-4"
       />
 
-      <div className="relative z-10 flex flex-col justify-between px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
+      <div className="relative z-10 flex flex-col justify-between items-center px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-center">
           ПРОГРАМА
           <span className="bg-gradient-gold bg-clip-text text-transparent">
@@ -46,7 +46,7 @@ export const ProgramSection = () => {
           </div>
         </div>
 
-        <div className="bg-glass backdrop-blur-glass rounded-2xl p-2 sm:p-6 lg:p-8 border border-glass mb-8">
+        <div className="bg-glass backdrop-blur-glass rounded-2xl p-2 sm:p-6 lg:p-8 border border-glass mb-8 max-w-lg">
           <div className="grid grid-cols-1 gap-2 md:gap-4">
             {programItems.map((item, index) => (
               <div

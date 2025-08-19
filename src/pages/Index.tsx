@@ -17,7 +17,7 @@ import { FooterSection } from "@/components/FooterSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative select-none">
       <HeroSection />
       <AboutSection />
       <ExamplesSection />
