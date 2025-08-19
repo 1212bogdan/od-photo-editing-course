@@ -22,7 +22,7 @@ export const AboutSection = () => {
           </h2>
           
           <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 border border-glass">
-            <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-card-foreground mb-4">
+            <p className="sm:text-base lg:text-lg leading-relaxed text-card-foreground mb-4">
               Привіт, мене звати <strong className="text-primary">Оксана Данилюк</strong>, я 
               майстер перманентну і сама веду свою сторінку. Чому? Тому що ніхто не 
               розуміє нішу перманентну і на що треба звертати увагу, так як майстер.

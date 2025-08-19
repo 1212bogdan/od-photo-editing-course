@@ -51,22 +51,21 @@ export const EconomySection = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <div className="bg-card/50 rounded-xl p-4 sm:p-6 border border-primary/30">
-              <h4 className="text-sm sm:text-lg font-bold text-primary mb-2 sm:mb-4">
+              <h4 className="text-base sm:text-lg font-bold text-primary mb-2 sm:mb-4">
                 ✨ Спойлер 1
               </h4>
-              <p className="text-xs sm:text-sm text-card-foreground">
-                Ви отримаєте не лише більш естетично привабливу сторінку, але
-                збільшите продажі своїх послуг
+              <p className="text-sm sm:text-sm text-card-foreground">
+                Ви отримаєте не лише більш естетично привабливу сторінку, але й
+                збільшите продажі своїх послуг в декілька разів
               </p>
             </div>
 
             <div className="bg-card/50 rounded-xl p-4 sm:p-6 border border-primary/30">
-              <h4 className="text-sm sm:text-lg font-bold text-primary mb-2 sm:mb-4">
+              <h4 className="text-base sm:text-lg font-bold text-primary mb-2 sm:mb-4">
                 ✨ Спойлер 2
               </h4>
-              <p className="text-xs sm:text-sm text-card-foreground">
-                Ви можете відкрити додатковий підзаробіток на швидку ретуш і
-                фото
+              <p className="text-sm sm:text-sm text-card-foreground">
+                Ви можете організувати додатковий підзаробіток на швидкій ретуші фото
               </p>
             </div>
           </div>

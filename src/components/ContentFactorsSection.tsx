@@ -44,7 +44,7 @@ export const ContentFactorsSection = () => {
           </div>
 
           <div className="flex sm:flex-col bg-glass backdrop-blur-glass rounded-xl p-3 sm:p-6 sm:text-center border border-glass hover:border-primary/30 transition-all duration-300">
-            <div className="text-4xl sm:text-3xl sm:mb-3">📷</div>
+            <div className="text-4xl sm:text-3xl sm:mb-3">🪞</div>
             <div className="ml-3 sm:ml-0">
               <h3 className="text-sm md:text-lg font-bold text-primary mb-1">
                 Додаткове обладнання

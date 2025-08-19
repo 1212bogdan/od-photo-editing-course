@@ -9,10 +9,10 @@ export const HeroSection = () => {
   ];
 
   return (
-    <section className="relative max-h-svh h-dvh bg-background overflow-hidden">
+    <section className="relative h-screen bg-background overflow-hidden">
       {/* Author Image positioned at bottom right */}
       <div
-        className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-3/5 sm:h-4/5 md:h-full bg-cover bg-left md:bg-center bg-no-repeat"
+        className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-2/3 sm:h-4/5 md:h-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${heroImage})`,
           maskImage:
@@ -58,7 +58,7 @@ export const HeroSection = () => {
                 </p>
               </div>
             </div> */}
-            <div className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 gap-2 md:gap-4">
               {features.map((feature, index) => (
                 <div
                   key={index}

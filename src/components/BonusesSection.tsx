@@ -53,7 +53,7 @@ export const BonusesSection = () => {
       <div>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-center text-foreground">
           <span className="bg-gradient-gold bg-clip-text text-transparent">
-            БОНУСИ
+            БОНУСИ ПІСЛЯ ПОКУПКИ
           </span>
         </h2>
 

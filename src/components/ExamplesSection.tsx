@@ -19,8 +19,8 @@ export const ExamplesSection = () => {
         </h3>
 
         <p className="text-sm sm:text-base lg:text-lg text-card-foreground mb-6 sm:mb-8 max-w-2xl">
-          В курсі є не лише інформація по швидкій обробці фото але і багато
-          матеріалу про те, як підготувати якісний "ісходник" і що впливає на це
+          В курсі є не лише інформація по швидкій обробці фото/відео але і багато
+          матеріалу про те, як зняти якісний кадр з першої спроби і що на це впливає
         </p>
 
         {/* Before/After Examples */}
@@ -37,7 +37,7 @@ export const ExamplesSection = () => {
               </div>
             </div>
             <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2 uppercase">
-              ПРИКЛАД 1 - очистка обличчя
+              ПРИКЛАД 1 - ПОРТРЕТНА ЗЙОМКА
             </h4>
             <p className="text-xs sm:text-sm text-card-foreground">
               Професійний результат за 10 хвилин
@@ -59,7 +59,7 @@ export const ExamplesSection = () => {
               ПРИКЛАД 2 - МАКРОЗЙОМКА
             </h4>
             <p className="text-xs sm:text-sm text-card-foreground">
-              До і після швидкої обробки
+              До і після швидкої обробки на телефоні
             </p>
           </div>
         </div>
