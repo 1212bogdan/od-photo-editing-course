@@ -1,4 +1,6 @@
 import { CourseSection } from "./CourseSection";
+import beforeAfterImage1 from "@/assets/before-after-1.webp";
+import beforeAfterImage2 from "@/assets/before-after-2.webp";
 
 export const TargetAudienceSection = () => {
   return (
@@ -15,6 +17,16 @@ export const TargetAudienceSection = () => {
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-3 sm:mb-4">
                 НЕ ЛИШЕ ДЛЯ БЬЮТІ&#8209;МАЙСТРІВ
               </h3>
+              
+              {/* Image for first block */}
+              <div className="mb-4">
+                <img 
+                  src={beforeAfterImage1} 
+                  alt="Приклад роботи бьюті-майстра" 
+                  className="w-full h-48 sm:h-56 object-cover rounded-xl"
+                />
+              </div>
+              
               <div className="space-y-3 text-sm sm:text-base text-card-foreground">
                 <p>
                   Ти робиш якісну роботу, але фото не передає через екран як вона виглядає "в живу" і не приваблює нових клієнтів. Твій візуальний 
@@ -33,6 +45,16 @@ export const TargetAudienceSection = () => {
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-3 sm:mb-4">
                 А Й ДЛЯ ВСІХ, ХТО ХОЧЕ ПРОСТО ЗАРАЗ НАВЧИТИСЬ ШВИДКО СТВОРЮВАТИ ТА РЕДАГУВАТИ 📸&nbsp;ФОТО 🎬&nbsp;ВІДЕО КОНТЕНТ
               </h3>
+              
+              {/* Image for second block */}
+              <div className="mb-4">
+                <img 
+                  src={beforeAfterImage2} 
+                  alt="Приклад обробки фото контенту" 
+                  className="w-full h-48 sm:h-56 object-cover rounded-xl"
+                />
+              </div>
+              
               <div className="space-y-3 text-sm sm:text-base text-card-foreground">
                 <p>
                   Якщо ти не майстер перманенту, але твоя робота тісно пов'язана з б'юті або ти тільки

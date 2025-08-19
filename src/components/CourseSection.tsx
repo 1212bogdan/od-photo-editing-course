@@ -14,7 +14,7 @@ export const CourseSection = ({ children, className, dark = false }: CourseSecti
         "py-8 sm:py-12 lg:py-16 px-2 sm:px-4 lg:px-6 relative overflow-hidden",
         dark 
           ? "bg-gradient-dark" 
-          : "bg-background bg-green-0",
+          : "bg-background bg-[url('@/assets/bg.webp')] bg-cover bg-center",
         className
       )}
     >

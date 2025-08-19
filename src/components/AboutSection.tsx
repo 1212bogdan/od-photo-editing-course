@@ -20,8 +20,8 @@ export const AboutSection = () => {
             ХТО Я І ЩО ЦЕ ЗА 
             <span className="bg-gradient-gold bg-clip-text text-transparent"> КУРС</span>?
           </h2>
-          
-          <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 border border-glass">
+
+          <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 border border-glass max-w-5xl mx-auto">
             <p className="sm:text-base lg:text-lg leading-relaxed text-card-foreground mb-4">
               Привіт! Мене звуть <strong className="text-primary">Оксана Данилюк</strong>, я 
               майстер перманентного макіяжу і сама веду свою сторінку. Чому? Тому що ніхто з SMM не 
