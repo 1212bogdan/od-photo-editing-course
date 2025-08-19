@@ -1,6 +1,6 @@
 import { CourseSection } from "./CourseSection";
-import beforeAfterImage1 from "@/assets/before-after-1.webp";
-import beforeAfterImage2 from "@/assets/before-after-2.webp";
+// import targetAudienceImage1 from "@/assets/ta-1.webp";
+// import targetAudienceImage2 from "@/assets/ta-2.webp";
 
 export const TargetAudienceSection = () => {
   return (
@@ -19,13 +19,13 @@ export const TargetAudienceSection = () => {
               </h3>
               
               {/* Image for first block */}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <img 
-                  src={beforeAfterImage1} 
-                  alt="Приклад роботи бьюті-майстра" 
+                  src={targetAudienceImage1} 
+                  alt="Бьюті-майстер за роботою" 
                   className="w-full h-48 sm:h-56 object-cover rounded-xl"
                 />
-              </div>
+              </div> */}
               
               <div className="space-y-3 text-sm sm:text-base text-card-foreground">
                 <p>
@@ -47,13 +47,13 @@ export const TargetAudienceSection = () => {
               </h3>
               
               {/* Image for second block */}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <img 
-                  src={beforeAfterImage2} 
-                  alt="Приклад обробки фото контенту" 
+                  src={targetAudienceImage2} 
+                  alt="Фотографує роботу бьюті-майстра" 
                   className="w-full h-48 sm:h-56 object-cover rounded-xl"
                 />
-              </div>
+              </div> */}
               
               <div className="space-y-3 text-sm sm:text-base text-card-foreground">
                 <p>
