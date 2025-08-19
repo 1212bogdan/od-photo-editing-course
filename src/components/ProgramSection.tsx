@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
+import { Clock } from "lucide-react";
 import programImage from "@/assets/course.webp";
 
 export const ProgramSection = () => {
@@ -27,13 +28,23 @@ export const ProgramSection = () => {
       />
 
       <div className="relative z-10 flex flex-col justify-between px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-center">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-center">
           ПРОГРАМА
           <span className="bg-gradient-gold bg-clip-text text-transparent">
             {" "}
             КУРСУ
           </span>
         </h2>
+
+        {/* Duration Badge */}
+        <div className="flex justify-center mb-6 sm:mb-8">
+          <div className="inline-flex items-center gap-2 bg-glass backdrop-blur-glass rounded-full px-2 py-1 sm:px-4 sm:py-2 border border-primary/20">
+            <Clock className="w-4 h-4 text-primary" />
+            <span className="text-xs sm:text-sm font-medium text-primary">
+              Загальна тривалість: 2 години
+            </span>
+          </div>
+        </div>
 
         <div className="bg-glass backdrop-blur-glass rounded-2xl p-2 sm:p-6 lg:p-8 border border-glass mb-8">
           <div className="grid grid-cols-1 gap-2 md:gap-4">

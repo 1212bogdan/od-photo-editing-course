@@ -23,20 +23,20 @@ export const AboutSection = () => {
           
           <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 border border-glass">
             <p className="sm:text-base lg:text-lg leading-relaxed text-card-foreground mb-4">
-              Привіт, мене звати <strong className="text-primary">Оксана Данилюк</strong>, я 
-              майстер перманентну і сама веду свою сторінку. Чому? Тому що ніхто не 
-              розуміє нішу перманентну і на що треба звертати увагу, так як майстер.
+              Привіт! Мене звуть <strong className="text-primary">Оксана Данилюк</strong>, я 
+              майстер перманентного макіяжу і сама веду свою сторінку. Чому? Тому що ніхто з SMM не 
+              розуміє нішу перманенту і на що треба звертати увагу, так як майстер.
             </p>
             
             <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-card-foreground mb-4">
-              Я втомилася зливати бюджет на контент-мейкерів та ретушерів І отримувати все 
-              одно не те, що хотілось би.
+              Я втомилася зливати бюджет на фотографів, контент-мейкерів та ретушерів І отримувати все 
+              одно не те, чого хотілось би мені, як я бачу.
             </p>
             
             <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-card-foreground">
               Тому для себе я напрацювала варіант ведення сторінки, зйомки контенту та 
               найголовніше <strong className="text-primary">швидкої обробки</strong>, який 
-              потребує мінімум зусиль і навичок.
+              потребує мінімум зусиль і навичок: усе відбувається на телефоні.
             </p>
           </div>
         </div>
