@@ -11,7 +11,7 @@ export const HeroSection = () => {
   ];
 
   return (
-    <section className="h-svh1 min-h-fit h-svh relative bg-background overflow-hidden">
+    <section className="min-h-fit h-svh max-h-svh relative bg-background overflow-hidden">
       {/* Author Image positioned at bottom right */}
       <div
         className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-2/3 sm:h-4/5 md:h-full bg-cover bg-center bg-no-repeat"
