@@ -78,7 +78,7 @@ export const HeroSection = () => {
           {/* Bottom section - Price and CTA */}
           <div className="mt-auto">
             {/* Price section */}
-            <div className="mb-6 mt-24">
+            <div className="mb-6 mt-20">
               <div className="flex flex-col place-items-start mb-3">
                 <span className="flex items-center gap-2">
                   <span
