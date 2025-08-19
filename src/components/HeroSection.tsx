@@ -11,17 +11,17 @@ export const HeroSection = () => {
   ];
 
   const handleScrollToNext = () => {
-    const nextSection = document.querySelector('section:nth-of-type(2)');
+    const nextSection = document.querySelector("section:nth-of-type(2)");
     if (nextSection) {
-      nextSection.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
+      nextSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
 
   return (
-    <section className="min-h-fit h-fit relative bg-background overflow-hidden">
+    <section className="h-fit relative bg-background overflow-hidden">
       {/* Author Image positioned at bottom right */}
       <div
         className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-2/3 sm:h-4/5 md:h-full bg-cover bg-center bg-no-repeat"
@@ -91,9 +91,7 @@ export const HeroSection = () => {
             <div className="mb-6 mt-16">
               <div className="flex flex-col place-items-start mb-3">
                 <span className="flex items-center gap-2">
-                  <span
-                    className="relative text-xl sm:text-2xl text-muted-foreground after:content-[''] after:absolute after:left-0 after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-[2px] after:bg-primary-dark after:rounded"
-                  >
+                  <span className="relative text-xl sm:text-2xl text-muted-foreground after:content-[''] after:absolute after:left-0 after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-[2px] after:bg-primary-dark after:rounded">
                     960 ГРН
                   </span>
                   <div className="bg-card text-primary-gold px-2 py-1 rounded-full font-bold text-xs">
@@ -137,8 +135,8 @@ export const HeroSection = () => {
       </div>
 
       {/* Animated scroll indicator з кліком */}
-      <div 
-        className="absolute bottom-2 right-6 z-20 flex flex-col items-center animate-bounce cursor-pointer group"
+      <div
+        className="absolute bottom-2 md:bottom-4 lg:bottom-6 right-6 z-20 flex flex-col items-center animate-bounce cursor-pointer group"
         onClick={handleScrollToNext}
       >
         <div className="bg-primary/20 backdrop-blur-sm rounded-full p-3 border border-primary/30 hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
