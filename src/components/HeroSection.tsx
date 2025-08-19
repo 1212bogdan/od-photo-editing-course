@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-author.webp";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, ChevronDown } from "lucide-react";
 
 export const HeroSection = () => {
   const features = [
@@ -9,6 +9,16 @@ export const HeroSection = () => {
     "Тривалість 2 години",
     "Миттєвий доступ",
   ];
+
+  const handleScrollToNext = () => {
+    const nextSection = document.querySelector('section:nth-of-type(2)');
+    if (nextSection) {
+      nextSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
 
   return (
     <section className="min-h-fit h-fit relative bg-background overflow-hidden">
@@ -33,7 +43,7 @@ export const HeroSection = () => {
             <div className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 mb-4 sm:mb-6 border border-primary/20">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <p className="text-xs sm:text-sm text-foreground font-medium">
-                Курс від успішного майстра з досвідом 8+ років
+                Курс від успішного майстра з досвідом 6+ років
               </p>
             </div>
 
@@ -124,6 +134,17 @@ export const HeroSection = () => {
             <p className="text-primary-light text-xs">майстер перманенту</p>
           </div> */}
         </div>
+      </div>
+
+      {/* Animated scroll indicator з кліком */}
+      <div 
+        className="absolute bottom-2 right-6 z-20 flex flex-col items-center animate-bounce cursor-pointer group"
+        onClick={handleScrollToNext}
+      >
+        <div className="bg-primary/20 backdrop-blur-sm rounded-full p-3 border border-primary/30 hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
+          <ChevronDown className="w-6 h-6 text-primary animate-pulse group-hover:animate-none" />
+        </div>
+        <span className="text-xs text-primary/80 mt-2 font-medium">гортай</span>
       </div>
     </section>
   );
