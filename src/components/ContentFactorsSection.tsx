@@ -2,9 +2,9 @@ import { CourseSection } from "./CourseSection";
 import singleLightExample from "@/assets/single-light-example.webp";
 import threeLightExample from "@/assets/three-light-example.webp";
 
-import Lottie from "lottie-react";
-import Cross from "@/lotties/Cross.json";
-import Check from "@/lotties/Check.json";
+// import Lottie from "lottie-react";
+// import Cross from "@/lotties/Cross.json";
+// import Check from "@/lotties/Check.json";
 
 export const ContentFactorsSection = () => {
   return (
@@ -69,11 +69,11 @@ export const ContentFactorsSection = () => {
                   alt="1 джерело світла"
                   className="w-full aspect-9/16 object-cover"
                 />
-                <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
+                {/* <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
                   <div className="w-2/5 md:w-1/3 lg:w-1/4">
                     <Lottie animationData={Cross} loop autoplay />
                   </div>
-                </div>
+                </div> */}
               </div>
               <h4 className="text-lg sm:text-xl font-semibold text-muted-foreground mb-2">
                 1 джерело світла
@@ -90,11 +90,11 @@ export const ContentFactorsSection = () => {
                   alt="3 джерела світла"
                   className="w-full aspect-9/16 object-cover"
                 />
-                <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
+                {/* <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
                   <div className="w-2/5 md:w-1/3 lg:w-1/4">
                     <Lottie animationData={Check} loop autoplay />
                   </div>
-                </div>
+                </div> */}
               </div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2">
                 3 джерела світла
