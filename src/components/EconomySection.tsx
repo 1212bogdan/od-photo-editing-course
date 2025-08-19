@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
-import { TrendingDown, DollarSign, Zap } from "lucide-react";
+// import { TrendingDown, DollarSign, Zap } from "lucide-react";
 export const EconomySection = () => {
   return (
     <CourseSection>
