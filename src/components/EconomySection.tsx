@@ -21,7 +21,7 @@ export const EconomySection = () => {
           {/* Savings Cards */}
           <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 text-card-foreground border border-glass">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4">
-              3000 ГРН
+              💸 3000 ГРН
             </h3>
             <p className="text-sm sm:text-lg lg:text-xl mb-1 sm:mb-2">
               НА ПОСЛУГАХ РЕТУШЕРА
@@ -33,7 +33,7 @@ export const EconomySection = () => {
 
           <div className="bg-glass backdrop-blur-glass rounded-2xl p-4 sm:p-6 lg:p-8 text-card-foreground border border-glass">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4 text-primary">
-              6000 ГРН
+              💸 6000 ГРН
             </h3>
             <p className="text-sm sm:text-lg lg:text-xl mb-1 sm:mb-2 text-primary">
               НА КОНТЕНТ-МЕЙКЕРІ
