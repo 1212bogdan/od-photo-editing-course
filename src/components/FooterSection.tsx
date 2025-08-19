@@ -8,7 +8,7 @@ export const FooterSection = () => {
           <div className="text-center space-y-6">
             {/* Company Info */}
             <div>
-              <h3 className="text-lg sm:text-xl font-bold text-primary mb-2">
+              <h3 className="text-base sm:text-lg font-bold text-primary mb-2">
                 ФОП Данилюк Оксана Анатоліївна
               </h3>
             </div>
