@@ -6,10 +6,12 @@ export const HeroSection = () => {
   const features = [
     "Достатньо лише смартфона",
     "Без складних програм",
+    "Тривалість 2 години",
+    "Миттєвий доступ",
   ];
 
   return (
-    <section className="relative h-svh max-h-svh bg-background overflow-hidden">
+    <section className="relative min-h-svh h-svh max-h-svh bg-background overflow-hidden">
       {/* Author Image positioned at bottom right */}
       <div
         className="absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-2/3 sm:h-4/5 md:h-full bg-cover bg-center bg-no-repeat"
