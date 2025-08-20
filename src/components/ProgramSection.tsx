@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
 import { Clock } from "lucide-react";
-import programImage from "@/assets/course.webp";
+import programImage from "@/assets/course.avif";
 
 export const ProgramSection = () => {
   const programItems = [

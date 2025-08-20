@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CourseSection } from "./CourseSection";
-import beforeAfterImage1 from "@/assets/before-after-1.webp";
-import beforeAfterImage2 from "@/assets/before-after-2.webp";
+import beforeAfterImage1 from "@/assets/before-after-1.avif";
+import beforeAfterImage2 from "@/assets/before-after-2.avif";
 
 import Lottie from "lottie-react";
 import InstagramReactions from "@/lotties/Instagram-reactions.json";
