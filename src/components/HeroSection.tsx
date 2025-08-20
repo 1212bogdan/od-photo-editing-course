@@ -35,10 +35,10 @@ export const HeroSection = () => {
       /> */}
       <img
         src={heroImage}
-        alt={heroImage}
+        alt="Автор курсу - Оксана Данилюк"
         // className="w-full h-auto object-cover bg-white rounded-xl overflow-hidden py-2"
         className="flex absolute bottom-0 right-0 w-4/5 sm:w-2/3 md:1/2 h-2/3 sm:h-4/5 md:h-full object-cover"
-        fetchPriority="high"
+        // fetchPriority="high"
         style={{
           maskImage:
             "linear-gradient(to left, rgba(0,0,0,1) 20%, rgba(0,0,0,0.9) 60%, rgba(0,0,0,0) 100%)",
