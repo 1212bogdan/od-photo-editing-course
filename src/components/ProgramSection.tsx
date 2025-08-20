@@ -46,7 +46,7 @@ export const ProgramSection = () => {
           </div>
         </div>
 
-        <div className="bg-glass backdrop-blur-glass rounded-2xl p-2 sm:p-6 lg:p-8 border border-glass mb-8 max-w-lg">
+        <div className="bg-glass backdrop-blur-glass rounded-2xl p-2 sm:p-6 lg:p-8 border border-gold-light mb-8 max-w-lg">
           <div className="grid grid-cols-1 gap-2 md:gap-4">
             {programItems.map((item, index) => (
               <div
