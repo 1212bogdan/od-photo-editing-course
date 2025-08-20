@@ -30,6 +30,7 @@ export const ExamplesSection = () => {
               src={beforeAfterImage1}
               alt="Приклад до і після обробки фото"
               className="w-full aspect-square object-cover rounded-sm mb-3 sm:mb-4"
+              loading="lazy"
             />
             <div className="absolute inset-0 flex items-start justify-end pointer-events-none">
               <div className="w-3/5 -mt-[12%]">
@@ -49,6 +50,7 @@ export const ExamplesSection = () => {
               src={beforeAfterImage2}
               alt="Приклад до і після обробки фото"
               className="w-full aspect-square object-cover rounded-sm mb-3 sm:mb-4"
+              loading="lazy"
             />
             <div className="absolute inset-0 flex items-end justify-start pointer-events-none">
               <div className="w-1/5 mb-[25%] ml-[5%]">

@@ -68,6 +68,7 @@ export const ContentFactorsSection = () => {
                   src={singleLightExample}
                   alt="1 джерело світла"
                   className="w-full aspect-9/16 object-cover"
+                  loading="lazy"
                 />
                 {/* <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
                   <div className="w-2/5 md:w-1/3 lg:w-1/4">
@@ -89,6 +90,7 @@ export const ContentFactorsSection = () => {
                   src={threeLightExample}
                   alt="3 джерела світла"
                   className="w-full aspect-9/16 object-cover"
+                  loading="lazy"
                 />
                 {/* <div className="absolute inset-0 flex items-end justify-end pointer-events-none">
                   <div className="w-2/5 md:w-1/3 lg:w-1/4">

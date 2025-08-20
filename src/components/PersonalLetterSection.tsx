@@ -12,6 +12,7 @@ export const PersonalLetterSection = () => {
           src={footer}
           alt="Автор курсу - Оксана Данилюк"
           className="flex self-end w-full md:w-3/5 object-cover md:opacity-0"
+          loading="lazy"
         />
         {/* <div
           className="absolute inset-0 bg-cover bg-center opacity-0 md:opacity-100"

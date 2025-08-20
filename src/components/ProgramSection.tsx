@@ -25,6 +25,7 @@ export const ProgramSection = () => {
         src={programImage}
         alt="Автор курсу - Оксана Данилюк"
         className="flex self-end w-full md:w-3/5 object-cover mb-3 sm:mb-4"
+        loading="lazy"
       />
 
       <div className="relative z-10 flex flex-col justify-between items-center px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
