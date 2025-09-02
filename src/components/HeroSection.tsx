@@ -6,8 +6,8 @@ export const HeroSection = () => {
   const features = [
     "Достатньо лише смартфона",
     "Без складних програм",
-    "Тривалість 2 години",
     "Миттєвий доступ",
+    "2 години уроків",
   ];
 
   const handleScrollToNext = () => {

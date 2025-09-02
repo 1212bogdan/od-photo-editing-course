@@ -17,7 +17,7 @@ export const TargetAudienceSection = () => {
           <div className="space-y-4 sm:space-y-6">
             <div>
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-3 sm:mb-4">
-                НЕ ЛИШЕ ДЛЯ БЬЮТІ&#8209;МАЙСТРІВ
+                ДЛЯ БЬЮТІ&#8209;МАЙСТРІВ
               </h3>
 
               {/* Image for first block */}
@@ -49,7 +49,7 @@ export const TargetAudienceSection = () => {
 
             <div className="border-t border-glass pt-4 sm:pt-6">
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-3 sm:mb-4">
-                А Й ДЛЯ ВСІХ, ХТО ХОЧЕ ПРОСТО ЗАРАЗ НАВЧИТИСЬ ШВИДКО СТВОРЮВАТИ
+                ДЛЯ ВСІХ, ХТО ХОЧЕ ПРОСТО ЗАРАЗ НАВЧИТИСЬ ШВИДКО СТВОРЮВАТИ
                 ТА РЕДАГУВАТИ 📸&nbsp;ФОТО 🎬&nbsp;ВІДЕО КОНТЕНТ
               </h3>
 
