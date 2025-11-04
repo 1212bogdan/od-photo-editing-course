@@ -47,7 +47,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const Comp = asChild ? Slot : "button";
 
     const handleClick = () => {
-      window.location.href = "https://secure.wayforpay.com/payment/240-beauty";
+      window.location.href = "https://secure.wayforpay.com/payment/8256j2091843561";
     };
 
     return (
