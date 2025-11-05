@@ -57,7 +57,7 @@ export const WhyChooseSection = () => {
             <p className="text-card-foreground text-sm sm:text-base lg:text-lg">
               Так, є багато курсів, де тебе будуть довго вчити створювати
               кіношну картинку і журнальну ретуш, але за цим стоїть купа часу,
-              зусиль і коштів.
+              зусиль і нервів.
             </p>
           </div>
 

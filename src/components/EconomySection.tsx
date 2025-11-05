@@ -56,7 +56,7 @@ export const EconomySection = () => {
               </h4>
               <p className="text-sm sm:text-sm text-card-foreground">
                 Ви отримаєте не лише більш естетично привабливу сторінку, але й
-                збільшите продажі своїх послуг в декілька разів
+                збільшите продажі своїх послуг
               </p>
             </div>
 
@@ -65,7 +65,7 @@ export const EconomySection = () => {
                 ✨ Спойлер 2
               </h4>
               <p className="text-sm sm:text-sm text-card-foreground">
-                Ви можете організувати додатковий підзаробіток на швидкій ретуші фото
+                Ви отримаєте додатковий дохід на швидкій ретуші фото
               </p>
             </div>
           </div>
