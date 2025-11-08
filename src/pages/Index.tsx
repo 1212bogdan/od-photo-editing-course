@@ -20,10 +20,10 @@ const Index = () => {
     <div className="min-h-screen relative select-none">
       <HeroSection />
       <AboutSection />
+      <ProgramSection />
       <ExamplesSection />
       <ContentFactorsSection />
       <TargetAudienceSection />
-      <ProgramSection />
       <BonusesSection />
       <EconomySection />
       <WhyChooseSection />
