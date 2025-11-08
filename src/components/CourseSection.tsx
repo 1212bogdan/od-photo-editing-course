@@ -11,7 +11,7 @@ export const CourseSection = ({ children, className, dark = false }: CourseSecti
   return (
     <section 
       className={cn(
-        "py-8 sm:py-12 lg:py-16 px-2 sm:px-4 lg:px-6 relative overflow-hidden",
+        "pt-8 sm:pt-12 lg:pt-16 px-2 sm:px-4 lg:px-6 relative overflow-hidden",
         dark 
           ? "bg-gradient-dark" 
           : "bg-background",
