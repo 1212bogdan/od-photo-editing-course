@@ -1,0 +1,46 @@
+# Залежності
+node_modules
+.pnpm-store
+
+# Збірка
+dist
+build
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Тестування
+coverage
+.nyc_output
+
+# Змінні середовища (локальні)
+.env.local
+.env.*.local
+
+# OS файли
+.DS_Store
+Thumbs.db
+
+# Документація (не потрібна в образі)
+README.md
+FACEBOOK_PIXEL_SETUP.md
+*.md
+
+# Docker файли (не потрібні всередині образу)
+Dockerfile
+docker-compose.yml
+.dockerignore

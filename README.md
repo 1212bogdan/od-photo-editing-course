@@ -1,71 +1,365 @@
-## Project info
+# 📸 Курс обробки контенту для б'юті-майстрів
 
-**URL**: https://lovable.dev/projects/d018b7ba-5d10-499f-8db4-69cce665e485
+Landing page для онлайн-курсу з навчання б'юті-майстрів швидкому створенню та обробці контенту за допомогою смартфона.
 
-## How can I edit this code?
+## 📋 Опис проекту
 
-There are several ways of editing your application.
+Це односторінковий веб-застосунок (landing page), призначений для продажу навчального курсу. Сайт містить всю необхідну інформацію для потенційних клієнтів: опис курсу, програму навчання, приклади робіт, відгуки учнів, ціни та форму оплати.
 
-**Use Lovable**
+### Основні секції сайту
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d018b7ba-5d10-499f-8db4-69cce665e485) and start prompting.
+| Секція               | Опис                                                   |
+| -------------------- | ------------------------------------------------------ |
+| **Hero**             | Головний екран з привабливим заголовком та CTA-кнопкою |
+| **About**            | Інформація про автора курсу                            |
+| **Program**          | Детальна програма навчання                             |
+| **Examples**         | Приклади робіт "до/після"                              |
+| **Content Factors**  | Ключові фактори успішного контенту                     |
+| **Target Audience**  | Для кого підійде курс                                  |
+| **Bonuses**          | Бонусні матеріали курсу                                |
+| **Economy**          | Економічне обґрунтування вартості                      |
+| **Why Choose**       | Переваги курсу                                         |
+| **Difference**       | Порівняння з іншими курсами                            |
+| **Testimonials**     | Відгуки учнів                                          |
+| **FAQ**              | Часті запитання                                        |
+| **Final Persuasion** | Фінальний заклик до дії                                |
+| **Personal Letter**  | Особистий лист від автора                              |
+| **Footer**           | Контакти та юридична інформація                        |
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Технології
 
-**Use your preferred IDE**
+- **[Vite](https://vitejs.dev/)** — швидкий збірник для сучасних веб-застосунків
+- **[React 18](https://react.dev/)** — бібліотека для створення UI
+- **[TypeScript](https://www.typescriptlang.org/)** — типізований JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** — utility-first CSS фреймворк
+- **[shadcn/ui](https://ui.shadcn.com/)** — колекція готових React-компонентів
+- **[Radix UI](https://www.radix-ui.com/)** — примітиви для доступних компонентів
+- **[React Router](https://reactrouter.com/)** — маршрутизація
+- **[TanStack Query](https://tanstack.com/query)** — керування станом сервера
+- **[Lottie React](https://lottiereact.com/)** — анімації у форматі Lottie
+- **[Lucide React](https://lucide.dev/)** — іконки
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📁 Структура проекту
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── assets/              # Зображення та медіа-файли
+│   └── testimonials/    # Фото для відгуків
+├── components/          # React-компоненти
+│   ├── ui/              # Базові UI-компоненти (shadcn/ui)
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── ProgramSection.tsx
+│   └── ...              # Інші секції landing page
+├── hooks/               # Кастомні React-хуки
+├── lib/                 # Утиліти та хелпери
+├── lotties/             # JSON-файли анімацій Lottie
+├── pages/               # Сторінки додатку
+│   ├── Index.tsx        # Головна сторінка
+│   └── NotFound.tsx     # Сторінка 404
+├── utils/               # Допоміжні функції
+│   └── facebookPixel.ts # Інтеграція з Facebook Pixel
+├── App.tsx              # Кореневий компонент
+└── main.tsx             # Точка входу
 ```
 
-**Edit a file directly in GitHub**
+## ⚙️ Особливості
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- 📱 **Адаптивний дизайн** — коректне відображення на всіх пристроях
+- 🎨 **Темна тема** — стильний дизайн з градієнтами
+- 🖼 **Оптимізація зображень** — автоматична оптимізація через `vite-plugin-image-optimizer`
+- 📊 **Facebook Pixel** — відстеження конверсій (налаштовується через змінну середовища)
+- ✨ **Lottie-анімації** — плавні анімації для покращення UX
+- ♿ **Доступність** — компоненти на базі Radix UI з підтримкою ARIA
 
-**Use GitHub Codespaces**
+## 🚀 Локальний запуск
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Вимоги
 
-## What technologies are used for this project?
+- Node.js 18+
+- npm, yarn, pnpm або bun
 
-This project is built with:
+### Встановлення
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+# Клонування репозиторію
+git clone <URL_РЕПОЗИТОРІЮ>
+cd od-photo-editing-course
 
-## How can I deploy this project?
+# Встановлення залежностей
+npm install
+# або
+pnpm install
+# або
+bun install
+```
 
-Simply open [Lovable](https://lovable.dev/projects/d018b7ba-5d10-499f-8db4-69cce665e485) and click on Share -> Publish.
+### Змінні середовища
 
-## Can I connect a custom domain to my Lovable project?
+Створіть файл `.env` у корені проекту:
 
-Yes, you can!
+```env
+VITE_FB_PIXEL_ID=your_facebook_pixel_id
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Команди
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+# Запуск dev-сервера (порт 8080)
+npm run dev
+
+# Збірка для production
+npm run build
+
+# Попередній перегляд production-збірки
+npm run preview
+
+# Перевірка коду (ESLint)
+npm run lint
+```
+
+## 🐳 Запуск у Docker
+
+### Швидкий запуск
+
+```bash
+# Збірка образу
+docker build -t od-photo-course .
+
+# Запуск контейнера
+docker run -d -p 80:80 --name od-photo-course od-photo-course
+```
+
+Сайт буде доступний за адресою: http://localhost
+
+### З використанням Docker Compose
+
+```bash
+# Запуск
+docker compose up -d
+
+# Зупинка
+docker compose down
+```
+
+### Збірка з Facebook Pixel
+
+```bash
+docker build --build-arg VITE_FB_PIXEL_ID=your_pixel_id -t od-photo-course .
+```
+
+## 🌐 Деплой на сервер
+
+### Варіант 1: Статичний хостинг
+
+Після збірки (`npm run build`) папка `dist/` містить статичні файли, які можна розмістити на будь-якому статичному хостингу:
+
+- Netlify
+- Vercel
+- GitHub Pages
+- AWS S3 + CloudFront
+- Будь-який веб-сервер (Nginx, Apache)
+
+### Варіант 2: VPS з Docker
+
+1. Встановіть Docker на сервері
+2. Скопіюйте файли проекту на сервер
+3. Запустіть через Docker:
+
+```bash
+docker compose up -d
+```
+
+### Варіант 3: Nginx без Docker
+
+```bash
+# Збірка проекту
+npm run build
+
+# Копіювання на сервер
+scp -r dist/* user@server:/var/www/html/
+
+# Налаштування Nginx (приклад конфігу)
+server {
+    listen 80;
+    server_name yourdomain.com;
+    root /var/www/html;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Кешування статики
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|avif|webp)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+}
+```
+
+## ✅ Facebook Pixel - Інструкція по налаштуванню
+
+Facebook Pixel інтегровано у цей Vite + TypeScript проект з використанням офіційного коду від Meta.
+
+### Файли:
+
+1. **`src/utils/facebookPixel.ts`** - Утиліта з офіційним кодом Meta Pixel
+2. **`src/App.tsx`** - Ініціалізація пікселя через змінну оточення `VITE_FB_PIXEL_ID`
+3. **`src/components/ui/button.tsx`** - Відстеження події `InitiateCheckout` при кліку на кнопку
+4. **`.env`** - Файл зі змінною оточення для Pixel ID
+5. **`.env.example`** - Приклад для документації
+
+### Відмінності від стандартного коду Meta:
+
+✅ **Всі параметри з офіційного коду Meta присутні:**
+
+- `callMethod` - для виклику методів
+- `queue` - черга подій
+- `push` - додавання в чергу
+- `loaded` - статус завантаження
+- `version` - версія '2.0'
+- `async` скрипт
+- `noscript` fallback тег
+
+## 🔧 Налаштування
+
+У файлі `.env` вже вказано ваш Pixel ID:
+
+```
+VITE_FB_PIXEL_ID=634156158316310
+```
+
+Піксель ініціалізується в `App.tsx` і автоматично підхоплює це значення.
+
+### Якщо потрібно змінити Pixel ID:
+
+1. Відкрийте файл `.env`
+2. Змініть значення `VITE_FB_PIXEL_ID`
+3. Перезапустіть dev сервер (`npm run dev`)
+
+## 🏗️ Архітектура
+
+Facebook Pixel ініціалізується **один раз** при завантаженні React додатку в `App.tsx`:
+
+```typescript
+const App = () => {
+  const pixel = import.meta.env.VITE_FB_PIXEL_ID;
+  initFacebookPixel(pixel);
+  // ... решта коду
+};
+```
+
+Це оптимальний підхід, оскільки:
+
+- ✅ Піксель завантажується один раз
+- ✅ Використовується змінна оточення
+- ✅ Легко змінити ID без зміни коду
+- ✅ Не потрібно дублювати код
+
+## 🔍 Перевірка роботи
+
+### Метод 1: Developer Console
+
+1. Запустіть проект: `npm run dev` або `pnpm dev`
+2. Відкрийте сайт у браузері
+3. Відкрийте Developer Tools (F12)
+4. Перейдіть на вкладку **Console**
+5. Напишіть: `fbq` і натисніть Enter
+6. Якщо побачите функцію - піксель працює! ✅
+
+### Крок 4: Встановити Facebook Pixel Helper (рекомендовано)
+
+1. Встановіть розширення [Facebook Pixel Helper](https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc) для Chrome
+2. Відкрийте ваш сайт
+3. Клацніть на іконку розширення - ви побачите, які події відстежуються
+
+## 📊 Які події відстежуються
+
+### 1. PageView (автоматично)
+
+Відстежується при кожному завантаженні сторінки.
+
+### 2. InitiateCheckout (при кліку на кнопку)
+
+Відстежується, коли користувач натискає кнопку для переходу до оплати:
+
+```typescript
+trackFacebookEvent("InitiateCheckout", {
+  content_name: "Course Purchase",
+  content_category: "Education",
+  currency: "UAH",
+});
+```
+
+## 🎯 Як додати власні події
+
+### Стандартні події Facebook:
+
+```typescript
+import { trackFacebookEvent } from "@/utils/facebookPixel";
+
+// При додаванні товару в кошик
+trackFacebookEvent("AddToCart", {
+  content_name: "Назва товару",
+  value: 1500,
+  currency: "UAH",
+});
+
+// При покупці
+trackFacebookEvent("Purchase", {
+  value: 3000,
+  currency: "UAH",
+  content_name: "Курс з обробки фото",
+});
+
+// При заповненні форми
+trackFacebookEvent("Lead", {
+  content_name: "Реєстрація на курс",
+});
+```
+
+### Кастомні події:
+
+```typescript
+import { trackFacebookCustomEvent } from "@/utils/facebookPixel";
+
+// Своя подія
+trackFacebookCustomEvent("VideoWatched", {
+  video_title: "Вступне відео",
+  duration: 120,
+});
+```
+
+## 📋 Список популярних стандартних подій:
+
+- `ViewContent` - Перегляд контенту
+- `Search` - Пошук
+- `AddToCart` - Додавання в кошик
+- `AddToWishlist` - Додавання до списку бажань
+- `InitiateCheckout` - Початок оформлення замовлення
+- `AddPaymentInfo` - Додавання платіжної інформації
+- `Purchase` - Покупка
+- `Lead` - Лід (реєстрація, підписка)
+- `CompleteRegistration` - Завершення реєстрації
+- `Contact` - Контакт
+- `Schedule` - Запис на зустріч
+
+## 🔍 Перевірка в Facebook Events Manager
+
+1. Відкрийте [Facebook Events Manager](https://business.facebook.com/events_manager)
+2. Виберіть ваш піксель
+3. Перейдіть на вкладку **"Тестові події"** або **"Test Events"**
+4. Відкрийте ваш сайт
+5. Виконуйте дії (клік на кнопку, перехід між сторінками)
+6. Події будуть відображатися в реальному часі!
+
+## 🚀 Готово!
+
+Facebook Pixel тепер повністю налаштований і готовий до використання. Всі кліки на кнопки автоматично відстежуються як події `InitiateCheckout`.
+
+Потрібна допомога? Перевірте [документацію Facebook Pixel](https://developers.facebook.com/docs/meta-pixel).
+
+## 📝 Ліцензія
+
+Всі права захищені. Цей проект є приватним і не підлягає вільному розповсюдженню.

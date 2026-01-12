@@ -95,7 +95,7 @@ export const FooterSection = () => {
             {/* Bottom spacing */}
             <div className="pt-2">
               <p className="text-xs text-muted-foreground/80">
-                © 2025
+                © 2025-2026
               </p>
             </div>
           </div>
